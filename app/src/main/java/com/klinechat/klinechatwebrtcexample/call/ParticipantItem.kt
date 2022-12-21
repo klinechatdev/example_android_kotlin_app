@@ -13,7 +13,7 @@ import com.xwray.groupie.viewbinding.GroupieViewHolder
 import com.klinechat.klinechatwebrtcexample.databinding.ParticipantItemBinding
 import com.klinechat.klinechatwebrtcexample.R
 
-// import types from local sdk
+// import types from livekit inside sdk
 import io.livekit.android.room.Room
 import io.livekit.android.room.participant.ConnectionQuality
 import io.livekit.android.room.participant.Participant

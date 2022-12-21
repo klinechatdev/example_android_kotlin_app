@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.github.ajalt.timberkt.Timber
 import com.xwray.groupie.GroupieAdapter
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.parcelize.Parcelize
@@ -19,16 +20,22 @@ import com.klinechat.klinechatwebrtcexample.viewModelByFactory
 
 // import from SDK
 import com.klinechat.webrtcsdk.CallViewModel
+import io.livekit.android.events.RoomEvent
+import io.livekit.android.events.collect
 
 
 class CallActivity : AppCompatActivity() {
 
+
+    // init sdk view model
     val viewModel: CallViewModel by viewModelByFactory {
         val args = intent.getParcelableExtra<BundleArgs>(KEY_ARGS)
             ?: throw NullPointerException("args is null!")
 
         CallViewModel(args.url, args.token, application)
     }
+
+
 
     lateinit var binding: CallActivityBinding
 
@@ -54,6 +61,35 @@ class CallActivity : AppCompatActivity() {
                     val items = participants.map { participant -> ParticipantItem(viewModel.room, participant) }
                     audienceAdapter.update(items)
                 }
+
+
+            // ROOM EVENTS EXAMPLE
+            viewModel.room.events.collect {
+                when (it) {
+                    is RoomEvent.FailedToConnect -> {
+                        Timber.e { "Room event: failed to connect" }
+                    }
+                    is RoomEvent.Disconnected -> {
+                        Timber.e { "Room event: disconnected" }
+                    }
+                    is RoomEvent.ParticipantConnected -> {
+                        Timber.e { "Room event: new participant connected" }
+                    }
+                    is RoomEvent.TrackMuted -> {
+                     //   it.participant.identity
+                        Timber.e { "Room event: someone is muted" }
+                    }
+                    is RoomEvent.ActiveSpeakersChanged -> {
+                        Timber.e { "Room event: active speaker changed" }
+                    }
+                    is RoomEvent.RoomMetadataChanged -> {
+                        Timber.e { "Room event: room metada changed" }
+                    }
+                    else -> {
+                        Timber.e { "Room event: $it" }
+                    }
+                }
+            }
 
         }
 

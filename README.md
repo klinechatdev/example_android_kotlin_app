@@ -1,1 +1,0 @@
-# example_android_kotlin_app

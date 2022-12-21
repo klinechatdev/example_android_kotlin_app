@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">klinechat webrtcsdk example</string>
+    <string name="connect">Connect</string>
+    <string name="token">Token</string>
+    <string name="enter_contact">Enter DeviceID to Call</string>
+    <string name="save_values">Save Values</string>
+    <string name="reset_values">Reset Values</string>
+    <string name="call">Call</string>
+</resources>

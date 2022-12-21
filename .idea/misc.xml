@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.174" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/account_cancel.xml" value="0.1965" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/banner_dark.xml" value="0.1965" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/baseline_cast_24.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/baseline_cast_connected_24.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/baseline_chat_24.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/dots_horizontal_circle_outline.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.1835" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1835" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/ic_logo_dark.xml" value="0.1835" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/outline_flip_camera_android_24.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/outline_mic_24.xml" value="0.1965" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/outline_mic_off_24.xml" value="0.1835" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/outline_videocam_24.xml" value="0.1965" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/outline_videocam_off_24.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/volume_up_48px.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/wifi_strength_1.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/wifi_strength_2.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/wifi_strength_3.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/drawable/wifi_strength_4.xml" value="0.2715" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/layout/activity_contact_details.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/layout/activity_incoming_call.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/layout/call_activity.xml" value="0.1" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/layout/item_todo.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/layout/participant_item.xml" value="0.18854166666666666" />
-        <entry key="..\:/Users/naylin.aung06/AndroidStudioProjects/AndroidRetrofit/app/src/main/res/layout/speaker_view.xml" value="0.18854166666666666" />
-      </map>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
